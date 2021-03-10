@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Now Regular";
+}
+
+body{
+  background-image: url(img/blue.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.log{
+  display:block;
+  margin-left: 483px;
+  margin-top:30px;
+}
+
+
+.wrapper{
+  position: relative;
+  font-family: Josefin Sans, sans-serif;
+  margin-left: 463px;
+  margin-top: 30px;
+  max-width: 350px;
+  width: 100%;
+  background: #e6e6e6;
+  padding: 25px 25px 0px 25px;
+  border-radius: 5px;
+ 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #332902;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper .input_field{
+  margin: 0px;
+}
+
+.wrapper .input_field input[type="text"]{
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.bottom {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.bottom a{
+  text-decoration: none;
+  color: black;
+  opacity:0.8;
+}
+.bottom a:hover{
+  text-decoration: none;
+  color: black;
+  opacity:1;
+}
+.bottom label{
+  top:4%;
+}
+[type="checkbox"]{
+    margin: 15px 0px 15px 0px;
+  }
+
+
+[type="submit"]{
+  border: 0px;
+  margin-top: 2px;
+  margin-left: 50px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #1ad1ff;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
